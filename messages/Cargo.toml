@@ -1,0 +1,16 @@
+[package]
+name="messages"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+publish.workspace = true
+
+
+[dependencies]
+gstd.workspace = true
+messages-io.workspace = true
+
+[build-dependencies]
+gear-wasm-builder.workspace = true
+messages-io.workspace = true
